@@ -1,0 +1,19 @@
+<section class="login">
+    <div class="login_header">
+        <img src="../../../assets/logo.png" width="auto" height="80">
+    </div>
+    <form [formGroup]="isSignUp? formSignUp : formSignIn" (ngSubmit)="submitForm()">
+        <h2>Entrar</h2>
+        <input *ngIf="isSignUp" type="text" placeholder="Nome" formControlName="name">
+        <input type="email" placeholder="Email" formControlName="email">
+        <input type="password" placeholder="Senha" formControlName="password">
+        <button class="SignUp" [disabled]="isSignUp? formSignUp.invalid : formSignIn.invalid">
+           {{isSignUp? 'Cadastrar': 'Acessar'}}
+        </button>
+        
+    </form>
+    
+
+    <!-- <button (click)="getSignIn(email,password)">testee</button> -->
+
+</section>

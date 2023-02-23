@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import './config-scss/reset.scss';
+@import './config-scss/variables.scss';
+@import './config-scss/rem-calc.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Rowdies:wght@700&display=swap');
+
+
+html{
+    font-family: 'Robot', sans-serif;
+    background-color: var(--background-primary);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    flex-direction: column;
+    
+    
+}

@@ -1,0 +1,21 @@
+@import '../../../../../../config-scss/variables.scss';
+@import '../../../../../../config-scss/rem-calc.scss';
+:host{
+
+    div{
+        background-color: #EAEAEC;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    .SignUp{
+        font-weight: 800;
+        color: #181c2e;
+        height: rem-calc(35);
+        margin-bottom: rem-calc(5);
+        cursor: pointer;
+        }
+    }
+
+
+}

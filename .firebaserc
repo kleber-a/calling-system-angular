@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sistema-59c34": {
+      "hosting": {
+        "calling-system-angular": [
+          "sistema-59c34"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sistema-59c34"
+  }
+}
