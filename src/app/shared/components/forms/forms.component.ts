@@ -57,6 +57,8 @@ export class FormsComponent  {
     }
   }
 
-
+  public navigation(){
+    
+  }
 
 }

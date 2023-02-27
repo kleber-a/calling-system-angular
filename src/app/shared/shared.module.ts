@@ -6,15 +6,18 @@ import { ReactiveFormsModule} from '@angular/forms';
 import { FormsComponent } from './components/forms/forms.component';
 
 import { RouterModule } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
 
 
 
 @NgModule({
   declarations: [
-    FormsComponent
+    FormsComponent,
+    HeaderComponent
   ],
   exports:[
-    FormsComponent
+    FormsComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
