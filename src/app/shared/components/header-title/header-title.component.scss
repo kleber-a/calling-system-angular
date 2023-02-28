@@ -1,0 +1,21 @@
+:host{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .title{
+        width: 94%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 1em 0;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        padding: .8em;
+    }
+    .title span{
+        font-size: 1.5em;
+    }
+
+}
