@@ -1,14 +1,27 @@
 <app-header></app-header>
 <main class="main_dashboard">
-   <app-header-title class="title"></app-header-title>
-   <p>sd</p>
-        <!-- <form>
-            <label>
-                <span>
-                    <p>foto</p>
-                </span>
-                <input>
-            </label>
-        </form> -->
+   <app-header-title></app-header-title>
+   <div class="container_form">
+       <form>
+           <label class="label_avatar">
+               <span>
+                    <fa-icon [icon]="faUpload" ></fa-icon>
+               </span>
+               <input type="file">
+               <img width="250" height="250" src="../../../../assets/avatar.png" >
+           </label>
+
+           <label>Nome</label>
+           <input type="text">
+
+           <label>email</label>
+           <input type="text">
+
+           <button>Salvar</button>
+       </form>
+       <div class="container_logout">
+           <button>Sair</button>
+       </div>
+   </div>
 
 </main>
